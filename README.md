@@ -24,5 +24,6 @@ The infrastructure was validated by performing a **Ping (ICMP)** test from the F
 - `README.md`: Project documentation.
   - `.gitignore`: Config file to prevent temporary and sensitive Terraform files from being tracked.
 - **`screenshots/`**: Directory containing proof-of-deployment:
-  - `ping-test.png`: Validation of private bidirectional communication via ICMP.
-  - `frontend-welcome.png`: Public access validation showing the active Apache web server.
+- `terraform-apply.png`: Execution output showing successful resource creation on GCP.
+  - `ping-test.png`: Validation of internal network connectivity.
+  - `frontend-welcome.png`: Validation of the public web server access.
